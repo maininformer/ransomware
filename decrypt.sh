@@ -5,10 +5,9 @@ key_files=$(ls *.key)
 
 for key in $key_files
 do
-	openssl enc -in $key -out binary -d -a
-	# dec_aes=$(openssl rsautl \
-	# 	-decrypt \
-	# 	-inkey client_private_key.pem \
-	# 	-in binary)
-	echo $binary
+	dec_aes=$(cat $key \
+			| openssl rsautl \
+				-decrypt \
+				-inkey client_private_key.pem)
+	echo $dec_aes
 done
