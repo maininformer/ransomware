@@ -7,7 +7,7 @@ openssl rsa \
 	-pubout \
 	-in client_private_key.pem \
 	-out client_public_key.pem \
-	-outform PEM &&
+	-outform PEM
 for file in $files
 do
 	# Encrypt everything in DIR_PATH using 

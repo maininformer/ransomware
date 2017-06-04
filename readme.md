@@ -1,4 +1,5 @@
-TODO: Why is the `decrypt.sh` not working
+TODO: Not working:  encrypting the client private key using the 
+server public key
 
 remember to run the `chmod`s
 
@@ -6,12 +7,30 @@ remember to run the `chmod`s
 
 ```
 -----BEGIN RSA PRIVATE KEY-----
-MIIBOQIBAAJBALf5iR+b1TlAvBpZomBxAiKGXjUv/X9+Y/oYbNkx3FFB15UQi4n5
-5MgitJzsfjE/Bk9u2ZxpdWoK3F/ddaiNYMcCAwEAAQJAenav8YuA9viBfiTWcs4m
-9qZtBYipfPm8QVmK81U+bBN/KCyr0c97f9Znc5X0lussTgtwe7QNXwOxGmX+wPEN
-eQIhAOvrgzBB4JmDM0YbP6gGgbURZUwOEZ6xNngSJAWSkPWTAiEAx6Iux2Z6B4Zj
-wtUi1s6swAhWxnoHuEiElWt8vgEPqH0CIARPF+VQvrZvFAeqxb3e6I2TFMOP2jiI
-yhLlWe0UITurAiAfE5YooEE6zqbU+4zS15V4x1OKzhBJlbBd+j+O7GddmQIgEcgp
-uRbMFZPXfF7bbraMOZqfudXDuto3iegcCXeHLjE=
+MIIEpAIBAAKCAQEAuez0869IekvjszsiNjwuv076b2WSVVJpbBLYr7P7eZJmzppq
+mK/cb6wbqo8dsI+WBtMwi0yzJ1iwbS2+gs5H6gyQQjE1GZRJ4HnBVRpKPpRXas4z
+qXukW4QhihyCB594vKtkDaoB/2k/izjOnqMLH7Py1BrtAUBe5MtRup7pN88uSZMb
+TqJra46ag2Lfo4vucF2Z0vsEofqSKAaZYwr5F/RrZR2v4a4lPzmIAQNdF1XSjb4T
+l9bTHjNYp5HtlQfxUoS6cPeN7F4R48vKgLEf67KN/zWjnEshPgxyMl+UbvqHDTJ1
+lLI928+RL2s/mDiN5J3dBaAIYNBHCGnxuhYlKwIDAQABAoIBAEHjaHdHQd8dL8df
+iGNB9qsTWQrLKw2TlAqZrzKtDMxrhoVnEamkgPEORAuwhiwA5oDqrMRg3QhvlK5M
+TLxcT/3wj9r1R0UWWQv0+f+nvnHo7gXKp2JDj95it+QS8D21VPs/nch93BFgggVb
+j1WGoDWO9toV5LHR1w8rwn3pPOrqpNYNRts0UOJTGkENURFr43g/v1AgEoi4/P3Q
+XEVmEfLa+zmlEGx24zsqAt7dWmH0BGYmiaIDQy8sEiuakihEIJKeUCLtp5VxuHUx
+zlXYB3nzUp1ipATKMB1rUMeBJN1YwnrbPvEm37a2JxF7z5lbe8mqEyqUUhxaePxu
+CCB/MNECgYEA7m2B1+WrYS8q4oZy0eRxdVMtSzkJ0jm+HXtEd1p4Xe4pszE8EogH
+Hqx27qJK+JgvsHghlq8H3Bc39csXzANri3cE/99WMMIaWJbOMXHLnx0kzMbpfjpB
+RuULahoQKIv8kje5avDIWKgXVGuUETj6ZWDkGSqOmsEdV0YGBfntEvMCgYEAx6Df
+8v6sEDErLWj/PdR6ClAy7JnLbRrUZP3p9OjbXMxU/HhDKfiEj7R28IbwdjqKNBfw
+EE8C3kQFuLsdT/nLH93evD3cX5EimhuSyHK/CrBXzczHt0ujZhuMWuu5gosze+uN
+2r4gn8DPfIjnbXPaqqglVibMjSbtyySwkOKuAukCgYBfgpSJ9OHTO37VYYBrXjSp
+CBnT0VSC10i2LKP/n8kp73ba5nUnA0C+4918uJyJuwUXjvf9kb33R4HOP34X5qLV
+KmdhTIkNXSQKqtaMbgZghd8w/NmaDCIMEUKiTTB93Z3ewN3Q3gWTpjo6QiH9SDLe
+G5MkFa0shwGG7XEKQdTbSwKBgQCssTjKxxEmOMK3V9tmK4cfoN1M3Iakbc9LRnS7
+zyzlDEaA2bCQgFJ81osF7FXckSu5gPPFx/QdPw8MDaJ/6wGTIaZrhcA8VBtw4WWL
+TeiCYKa0e/BRWneR/0bd6InkqnLxQobGsi8aw/s6Kly5zL1fYHJcIthVS1XupGCy
+Fcae8QKBgQCRB9/ux/Qbq/AaOyIGw+Y/FIlnVvUaoWmBraJL/cKDEJn1qypBCKxb
+mb53YmKjoA41Ij8gYw7sUSTBDAxnrBrwDVKNp3ubRGBTfK4HazY1mwlsUmBD9efj
+ayirtgy4k6vmCVP3gg3WMKtAd57O1QnF5jTXvlhQeb7wtUoR3/QhjA==
 -----END RSA PRIVATE KEY-----
 ```
